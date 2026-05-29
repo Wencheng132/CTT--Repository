@@ -11,7 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // 生产环境：托管前端静态文件
-const clientDist = path.join(__dirname, '..', 'client', 'dist');
+const clientDist = path.join(__dirname, 'public');
 app.use(express.static(clientDist));
 
 app.use('/api/auth', authRoutes);
