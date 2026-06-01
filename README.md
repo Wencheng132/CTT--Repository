@@ -90,7 +90,7 @@ npm run build
 
 ## 📸 演示
 
-![数据看板演示](../docs/dashboard-demo.gif)
+![数据看板演示](docs/dashboard-demo.gif)
 
 ---
 
