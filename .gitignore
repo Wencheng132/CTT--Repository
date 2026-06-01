@@ -1,7 +1,0 @@
-node_modules/
-dist/
-*.db
-.env
-.DS_Store
-.vite/
-.claude/settings.local.json
