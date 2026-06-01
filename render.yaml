@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: todo-app
+    env: node
+    region: singapore
+    buildCommand: cd server && npm install && npm run build
+    startCommand: node server/index.js
+    healthCheckPath: /api/health
+    plan: free
